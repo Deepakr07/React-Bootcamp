@@ -1,16 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import './App.css';
 
-const nav = (
-  <nav>
-    <h1>Amazon</h1>
+ const Nav = function () {return(<img src="/react-logo.png" alt="react logo" className="nav-logo"/>)}
+  
+
+const Content = function (){ return(
+  <div>
+    <h1>Fun facts about React </h1>
     <ul>
-      <li>Menu</li>
-      <li>About</li>
-      <li>Contact</li>
+      <li>Was released in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has Well over 100k stars on github</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers millions of enterprise apps, including mobile apps</li>
     </ul>
-  </nav>
-);
-
+  </div>
+)}
 const rootElement = ReactDOM.createRoot(document.getElementById("root"));
-rootElement.render(nav);
+rootElement.render(<div>
+  <Nav /><Content />
+</div>);
