@@ -12,7 +12,7 @@ function MainTitle(){
 
 function MainContent(){
     return(
-        <p>This is a dummy text to test out the component</p>
+        <p>This is a dummy text to test out the MainContent component</p>
     )
 }
 
