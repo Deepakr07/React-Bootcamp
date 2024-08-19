@@ -1,3 +1,4 @@
+
 //1. using ReactDOM package to render jsx
 
 
@@ -35,9 +36,10 @@ const pageContent = (
     </div>
 )
 
+//for creating a custom react nav component by wrapping the children components in <nav></nav>
 
-function NavBar(){
-    return(
+function NavBar() {
+    return (
         <nav>
             <h1>Amazon</h1>
             <ul>
@@ -46,9 +48,11 @@ function NavBar(){
                 <li>Contact</li>
             </ul>
         </nav>
-    )
+    );
 }
 
-const root = document.querySelector("#root");
+// Create root using React 18's createRoot
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactDOM.render(<NavBar />,root)
+// Render the NavBar component
+root.render(<NavBar />);
