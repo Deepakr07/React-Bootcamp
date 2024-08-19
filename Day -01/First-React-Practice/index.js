@@ -34,9 +34,21 @@ const pageContent = (
         <p>This text is a part of the main jsx element</p>
     </div>
 )
-console.log(pageContent);
+
+
+function NavBar(){
+    return(
+        <nav>
+            <h1>Amazon</h1>
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    )
+}
 
 const root = document.querySelector("#root");
 
-console.log(root);
-ReactDOM.render(pageContent,root);
+ReactDOM.render(<NavBar />,root)
