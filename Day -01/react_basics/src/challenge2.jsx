@@ -5,7 +5,7 @@ function Header(){
   return(
     <header>
       <nav className="nav">
-        <img src = "./react-logo.png"  className="logo" width="40px"/ >
+        <img src = "./react-logo.png"  className="logo" / >
         <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
