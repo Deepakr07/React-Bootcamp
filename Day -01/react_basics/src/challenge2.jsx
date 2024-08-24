@@ -10,6 +10,6 @@ import MainContent from "./MainContent";
 const rootElement = ReactDOM.createRoot(document.getElementById("root"));
 rootElement.render(<div className="hero">
   <Header />
-  <MainContent />
-  <Footer/>
+  <MainContent/>
+  <Footer className="footer"/>
 </div>);

@@ -2,6 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: -1px 5px 2px -1px rgba(237,225,237,1);
+}
+
+.hero{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nav-items {
@@ -17,3 +25,14 @@
 .logo{
   width: 70px;
 }
+h1{
+  font-size: 40px;
+}
+.list-content{
+  font-size: 25px;
+}
+.main-content{
+
+  flex: 1;
+}
+
