@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom"
 import "./style.css"
-import Nav from "./nav";
+import Header from "./Header";
 
 const rootElement = ReactDOM.createRoot(document.getElementById("root"));
-rootElement.render(<Nav />);
+rootElement.render(<Header />);

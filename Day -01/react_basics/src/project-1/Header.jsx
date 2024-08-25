@@ -1,9 +1,10 @@
 import React from 'react'
 import "./style.css";
 
-function Nav(){
+function Header(){
   return(
-    <nav>
+    <header>
+      <nav className="nav">
       <div className="nav-left">
         <img src="./react-logo.png" alt="react-logo" className='react-logo'/>
         <p className='nav-title'>ReactFacts</p>
@@ -12,8 +13,9 @@ function Nav(){
         React Course - Project 1
       </div>
     </nav>
+    </header>
   )
 
 }
 
-export default Nav
+export default Header
