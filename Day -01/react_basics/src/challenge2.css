@@ -14,7 +14,6 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .nav-items {
@@ -42,7 +41,7 @@ h1{
 }
 footer{
   background-color: rgb(147, 146, 146);
-  padding: 10px;
+  padding: 8px;
   font-size: 18px;
   text-align: center;
 }
