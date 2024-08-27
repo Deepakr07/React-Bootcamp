@@ -3,8 +3,7 @@
 body{
   padding: 0;
   margin: 0;
-  font-family: "Inter", sans-serif;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  font-family: "Inter", sans-serif; 
 }
 
 .nav{
@@ -52,7 +51,7 @@ h1{
 }
 
 .container img {
-  max-width: 100%; /* Ensure images don't cause overflow */
+  max-width: 100%; 
   height: auto;
   
 }
