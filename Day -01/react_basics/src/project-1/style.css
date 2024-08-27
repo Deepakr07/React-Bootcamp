@@ -69,6 +69,6 @@ h1{
   list-style: #61DAFB;
 }
 .fact-list li::marker{
-  color: #61DAFB;
+  color: #61DAFB; 
   font-size: 25px;
 }
