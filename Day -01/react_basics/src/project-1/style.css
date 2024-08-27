@@ -4,6 +4,7 @@ body{
   padding: 0;
   margin: 0;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .nav{
@@ -12,7 +13,8 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  height: 80px;
+  height: 91px;
+  box-sizing: border-box;
 }
 
 .nav-left{
@@ -23,14 +25,41 @@ body{
   font-size: 25px;
   font-weight: bold;
 }
-.nav-left >img{
+.nav-left > img{
   width: 60px;
   height: 60px;
 }
+
 .nav-right{
   padding: 20px;
   font-size: 20px;
   color: white;
-  font-weight:500;
+  font-weight: 500;
 }
 
+.main{
+  background-color: #282D35;
+  height: calc(100vh - 91px);
+  box-sizing: border-box;
+  overflow-x: hidden; 
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+h1{
+  margin: 0;
+  color: white;
+}
+
+.container img {
+  max-width: 100%; /* Ensure images don't cause overflow */
+  height: auto;
+  
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  padding-left: 0;
+}
