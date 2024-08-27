@@ -55,13 +55,7 @@ h1{
   height: auto;
   
 }
-.container{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 0;
-  padding-left: 0;
-}
+
 .fact-list li{
   font-size: 18px;
   line-height: 2rem;
@@ -71,4 +65,11 @@ h1{
 .fact-list li::marker{
   color: #61DAFB; 
   font-size: 25px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  padding-left: 0;
 }
