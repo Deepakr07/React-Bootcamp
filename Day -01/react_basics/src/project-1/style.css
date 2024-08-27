@@ -63,3 +63,13 @@ h1{
   margin-left: 0;
   padding-left: 0;
 }
+.fact-list li{
+  font-size: 18px;
+  line-height: 2rem;
+  color: white;
+  list-style: #61DAFB;
+}
+.fact-list li::marker{
+  color: #61DAFB;
+  font-size: 25px;
+}
