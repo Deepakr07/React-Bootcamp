@@ -1,0 +1,11 @@
+.header2{
+  background-color: #161619;
+}
+.social-logos{
+  padding-left: 74px;
+  padding-right: 74px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: flex;
+  justify-content: space-around;
+}
