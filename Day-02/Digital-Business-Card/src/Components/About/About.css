@@ -1,0 +1,13 @@
+.main{
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid beige;
+  width: 247px;
+}
+.main >p{
+  font-size: 11px;
+}
+.main >h1{
+  font-size: 18px;
+  font-weight: bold;
+}

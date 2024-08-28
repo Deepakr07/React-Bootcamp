@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .profile-container{
   border: 1px solid red;
   display: inline-block;
-  font-family: "Inter", sans-serif;
   background-color: #1A1B21;
 }
 
@@ -38,7 +37,6 @@
   padding-right: 30px;
 }
 .button-section >button{
-  padding: 10px;
   font-size: 15px;
   font-weight: 300;
 }
@@ -48,6 +46,7 @@
   width: 115px;
   height: 34px;
   border-radius: 8px;
+  cursor: pointer;
 }
 .linkedin{
   background-color: #5093E2;
