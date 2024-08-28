@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.profile-container{
+  border: 1px solid red;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  background-color: #1A1B21;
+}
+
+
+.name-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5rem;
+}
+
+.header{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.role{
+  color: #F3BF99;
+  font-size: 13px;
+  font-weight:500;
+}
+
+.website{
+  font-size: 10.5px;
+  color: white;
+}
+.button-section{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.button-section >button{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.button{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 115px;
+  height: 34px;
+  border-radius: 8px;
+}
+.linkedin{
+  background-color: #5093E2;
+  color: white;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
