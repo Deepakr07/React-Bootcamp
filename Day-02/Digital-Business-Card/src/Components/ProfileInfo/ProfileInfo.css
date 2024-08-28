@@ -2,10 +2,10 @@
 .profile-container{
   display: inline-block;
 }
-/* .profile-container img{
+.profile-photo{
   height: 317px;
   width: 33;
-} */
+}
 
 .name-details{
   display: flex;

@@ -8,7 +8,7 @@ function ProfileInfo(){
 
   return(
     <div className="profile-container">
-      <img src={ProfileImage} alt="profile-photo" />
+      <img src={ProfileImage} alt="profile-photo" className="profile-photo"/>
       <div className="name-details">
         <span className="header">Deepak R</span>
         <span className="role">Software Developer</span>
