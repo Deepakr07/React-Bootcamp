@@ -15,8 +15,8 @@ function ProfileInfo(){
         <span className="website">Deepakr07.github</span>
       </div>
       <div className="button-section">
-        <button className="button email"><div className="button-container"><img src={Email} alt="" />Email</div></button>
-        <button className="button linkedin"><div className="button-container"><img src={Linkedin} alt="" />Linkedin</div></button>
+        <button className="button email"><div className="button-container"><img src={Email} alt="" /><a href="mailto:deepakrajesh567@gmail.com" className="mail">Email</a></div></button>
+        <button className="button linkedin"><div className="button-container"><img src={Linkedin} alt="" /><a href="https://www.linkedin.com/in/deepak-r-94a1b5239/" className="link">Linkedin</a></div></button>
       </div>
     </div>
   )

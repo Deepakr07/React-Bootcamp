@@ -10,6 +10,7 @@
 }
 
 .name-details{
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,6 +51,7 @@
   height: 34px;
   border-radius: 8px;
   cursor: pointer;
+  border: none;
 }
 .linkedin{
   background-color: #5093E2;
@@ -60,4 +62,13 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+}
+.button-container a{
+  text-decoration: none;
+}
+.link{
+  color: white;
+}
+.mail{
+  color: black;
 }

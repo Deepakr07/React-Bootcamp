@@ -8,9 +8,9 @@ function Footer(){
   return(
     <footer className="header2">
       <div className="social-logos">
-        <img src={twitter} alt="footer" />
-        <img src={github} alt="footer" />
-        <img src={instagram} alt="footer" />
+        <a href=""><img src={twitter} alt="footer" /></a>
+        <a href="https://github.com/Deepakr07?tab=overview&from=2023-02-01&to=2023-02-23"><img src={github} alt="footer" /></a>
+        <a href="https://www.instagram.com/deepxk.r/"><img src={instagram} alt="footer" /></a>
       </div>
     </footer>
   )
