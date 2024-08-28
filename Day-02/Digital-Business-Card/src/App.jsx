@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import ProfileInfo from "./Components/ProfileInfo/ProfileInfo";
 import About from "./Components/About/About";
 import Footer from "./Components/Footer/Footer";
