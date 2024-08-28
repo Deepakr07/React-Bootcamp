@@ -6,10 +6,12 @@ import Footer from "./Components/Footer/Footer";
 import "./app.css"
 
 const rootELement = ReactDOM.createRoot(document.getElementById("root"));
-rootELement.render(<div className="container">
+rootELement.render(<div className="main-container">
+  <div className="container">
 <ProfileInfo />
 <About />
 <Footer />
+</div>
 </div>
   
 )
