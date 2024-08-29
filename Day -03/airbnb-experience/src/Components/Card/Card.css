@@ -1,8 +1,9 @@
 .card-container{
  margin-top: 80px;
+ margin-left: 49px;
 }
 .card-img{
-  width: 570px;
+  width: 100%;
 }
 .card-content{
   font-size: 15px;

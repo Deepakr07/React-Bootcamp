@@ -1,17 +1,16 @@
-import CardImg from "../../../Assets/card-img1.png";
 import CardStar from "../../../Assets/star.png";
 import "./Card.css"
-const Card = ()=>{
+const Card = (props)=>{
   return(
     <div className="card-container">
-      <div className="card-img"><img src={CardImg} alt="card-image" /></div>
+      <div className="card-img"><img src={props.img} alt="card-image" /></div>
       <div className="card-content">
         <div className="row-1">
           <img src={CardStar} alt="cardstar" />
-          <p className="rating">5.0 <span className="country-code"> (6).USA</span></p>
+          <p className="rating">{props.rating} <span className="country-code"> ({props.countryCode}).{props.countryName}</span></p>
         </div>
-        <div className="row-2"><p>Life Lessons with Katie Zeferes</p></div>
-        <div className="row-3"><p><strong>From $138/ </strong>Person</p></div>
+        <div className="row-2"><p>{props.cardName}</p></div>
+        <div className="row-3"><p><strong>From {props.price}</strong> /Person</p></div>
       </div>
     </div>
   )

@@ -7,7 +7,14 @@ const App = ()=>{
     <div className="container">
       <Nav />
       <Hero />
-      <Card />
+      <Card 
+        img = "../Assets/card-img1.png"
+        rating = "5"
+        countryCode = "6"
+        courntryName = "USA"
+        cardName = "Life Lessons with Katie Zeferes"
+        price = "$138"
+      />
     </div>
   )
 }
