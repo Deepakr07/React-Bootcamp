@@ -9,6 +9,7 @@
   text-align: center;
   overflow-x: hidden;
   overflow-y: hidden;
+  padding-top: 90px;
 }
 .hero h1{
   width: 70%;
