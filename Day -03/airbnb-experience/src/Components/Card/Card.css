@@ -1,0 +1,37 @@
+.card-container{
+ margin-top: 80px;
+}
+.card-img{
+  width: 570px;
+}
+.card-content{
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly ;
+  letter-spacing: 1px;
+}
+p{
+  margin: 0;
+  display: inline-block;
+}
+.row-1{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+.row-1>img{
+  width: 14px;
+  height: 14px;
+}
+
+.country-code{
+  color: #918E9B;
+}
+
+.row-2{
+  font-weight: 400;
+  margin-bottom: 8px;
+}
