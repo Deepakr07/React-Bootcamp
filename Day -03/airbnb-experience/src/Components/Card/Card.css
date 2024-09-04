@@ -40,4 +40,6 @@ p{
 .row-2{
   font-weight: 400;
   margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

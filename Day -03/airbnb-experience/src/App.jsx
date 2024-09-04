@@ -19,6 +19,7 @@ const App = ()=>{
       <Hero />
       <div className="card-container">
         {cardElements}
+        {cardElements}
         
       </div>
     </div>
