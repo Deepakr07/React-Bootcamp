@@ -13,6 +13,8 @@ body{
 .card-container{
   flex: 0 0 auto;         
   display: flex;  
-  overflow-x: scroll;       
+  gap: 30px;
+  overflow-x: scroll;   
+  padding: 40px;   
 }
 
