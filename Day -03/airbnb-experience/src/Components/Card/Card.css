@@ -5,6 +5,11 @@
 .card-img{
   width: 100%;
 }
+.card-img img{
+  width: 264px;
+  height: 353px;
+  border-radius: 9px;
+}
 .card-content{
   font-size: 15px;
   display: flex;

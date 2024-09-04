@@ -5,11 +5,11 @@ import cardDetails from "./Components/CardDetails/CardDetails";
 import "./App.css"
 const App = ()=>{
   const cardElements = cardDetails.map(details=>{
-    return <Card img = {details.img}
-                 rating = {details.rating}
-                 countryCode = {details.countryCode}
-                 countryName = {details.countryName}
-                 cardName = {details.cardName}
+    return <Card img = {details.coverImg}
+                 rating = {details.stats.rating}
+                 reviewCount = {details.stats.reviewCount}
+                 countryName = {details.location}
+                 cardName = {details.title}
                  price = {details.price}  
     />
   })
