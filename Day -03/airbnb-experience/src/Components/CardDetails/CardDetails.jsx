@@ -1,7 +1,7 @@
 
 const cardDetails = [
-  {
-    export default [
+  
+
       {
           id: 1,
           title: "Life Lessons with Katie Zaferes",
@@ -41,8 +41,7 @@ const cardDetails = [
           location: "Norway",
           openSpots: 3,
       }
-  ]
-  }
+      
 ]
 
 export default cardDetails
