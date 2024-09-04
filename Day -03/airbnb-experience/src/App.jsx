@@ -1,7 +1,7 @@
 import Nav from "./Components/Nav/Nav";
 import Hero from "./Components/Hero/Hero";
 import Card from "./Components/Card/Card";
-import cardDetails from "./Components/CardDetails/CardDetails";
+import cardDetails from "./Components/CardDetails/CardDetails.js";
 import "./App.css"
 const App = ()=>{
   const cardElements = cardDetails.map(details=>{
