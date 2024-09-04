@@ -17,7 +17,10 @@ const App = ()=>{
     <div className="container">
       <Nav />
       <Hero />
-      {cardElements}
+      <div className="card-container">
+        {cardElements}
+        
+      </div>
     </div>
   )
 }

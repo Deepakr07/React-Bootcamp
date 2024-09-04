@@ -3,5 +3,11 @@ body{
   padding: 0;
   margin: 0;
   font-family: "Poppins",sans-serif;
+  overflow-x: hidden;
+}
+.card-container{
+  flex: 0 0 auto;         /* ADD */
+  display: flex;  
+  overflow-x: scroll;        /* ADD */
 }
 

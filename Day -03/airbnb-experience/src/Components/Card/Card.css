@@ -1,13 +1,13 @@
-.card-container{
+.card{
  margin-top: 80px;
  margin-left: 49px;
+
 }
 .card-img{
-  width: 100%;
+  width: 264px;
 }
 .card-img img{
-  width: 264px;
-  height: 353px;
+  width: 100%;
   border-radius: 9px;
 }
 .card-content{
