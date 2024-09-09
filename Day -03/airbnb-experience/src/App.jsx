@@ -6,13 +6,8 @@ import "./App.css"
 const App = ()=>{
   const cardElements = cardDetails.map(details=>{
    
-    return <Card img = {details.coverImg}
-                 rating = {details.stats.rating}
-                 reviewCount = {details.stats.reviewCount}
-                 countryName = {details.location}
-                 cardName = {details.title}
-                 price = {details.price}
-                 status = {details.openSpots}  
+    return <Card 
+                details = {details}  
     />
   })
   return(
