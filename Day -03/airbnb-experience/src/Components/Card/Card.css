@@ -1,4 +1,16 @@
 
+
+.card{
+  position: relative;
+}
+.top-text{
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  background-color: aliceblue;
+  padding: 7px;
+  
+}
 .card-img{
   width: 264px;
 }
