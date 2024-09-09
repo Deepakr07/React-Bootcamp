@@ -11,6 +11,9 @@
   padding: 7px;
   
 }
+.new-card{
+  background-image: red;
+}
 .card-img{
   width: 264px;
 }

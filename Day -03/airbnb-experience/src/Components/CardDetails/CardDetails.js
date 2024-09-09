@@ -14,7 +14,7 @@ const cardDetails = [
             rating: 5.0,
             reviewCount: 6
           },
-          location: "Online",
+          location: "USA",
           openSpots: 0,
         },
         {
@@ -27,7 +27,7 @@ const cardDetails = [
             rating: 5.0,
             reviewCount: 30
           },
-          location: "Online",
+          location: "UK",
           openSpots: 27,
         },
         {
