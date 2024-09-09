@@ -5,19 +5,14 @@ import cardDetails from "./Components/CardDetails/CardDetails.js";
 import "./App.css"
 const App = ()=>{
   const cardElements = cardDetails.map(details=>{
-    let statusText = "";
-    if(details.openSpots>0){
-      statusText = "AVAILABLE"
-
-    }
-    else statusText = "SOLD OUT"
+   
     return <Card img = {details.coverImg}
                  rating = {details.stats.rating}
                  reviewCount = {details.stats.reviewCount}
                  countryName = {details.location}
                  cardName = {details.title}
                  price = {details.price}
-                 status = {statusText}  
+                 status = {details.openSpots}  
     />
   })
   return(

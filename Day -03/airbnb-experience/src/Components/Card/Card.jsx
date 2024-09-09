@@ -3,8 +3,9 @@ import "./Card.css"
 const Card = (props)=>{
   return(
     <div className="card">
+      {props.status === 0 && <div className="top-text">SOLD OUT</div>}
       <div className="card-img"><img src={props.img} alt="card-image" /></div>
-      <div className="top-text">{props.status}</div>
+      
       <div className="card-content">
         <div className="row-1">
           <img src={CardStar} alt="cardstar" />
