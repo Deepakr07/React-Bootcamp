@@ -7,14 +7,7 @@ const App = ()=>{
     return(
       <div>
         <Card 
-        image = {item.imageUrl}
-        title = {item.title}
-        location = {item.location}
-        googleMapsUrl = {item.googleMapsUrl}
-        startDate = {item.startDate}
-        endDate = {item.endDate}
-        description = {item.description}
-      
+       item = {item}
       />
       <hr className="hr"/>
       </div>
