@@ -20,3 +20,7 @@ In this project, I gained experience with the following concepts:
   - Passing props to components for better customization and flexibility.
   - Destructuring props inside components to simplify access to data.
   - **Mapping through an array of data**: Dynamically rendering components by mapping through an array of data and passing it as props to child components.
+
+### Solo Project 3 - Travel Journal ([https://travel-journ-deep07.netlify.app/])
+
+This was a practice project which was done to sharpen the above mentioned concepts
