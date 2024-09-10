@@ -6,7 +6,7 @@ const Nav = function (){
     <nav className="nav">
       <div className="nav-content">
         <img src={globe} alt="globeimage" />
-        <p>my travel journal</p>
+        <span>my travel journal</span>
       </div>
     </nav>
   )
