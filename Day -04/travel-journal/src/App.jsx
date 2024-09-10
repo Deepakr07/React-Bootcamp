@@ -5,7 +5,8 @@ import data from "./Data/Data";
 const App = ()=>{
   const details = data.map(item=>{
     return(
-      <Card 
+      <div>
+        <Card 
         image = {item.imageUrl}
         title = {item.title}
         location = {item.location}
@@ -15,6 +16,8 @@ const App = ()=>{
         description = {item.description}
       
       />
+      <hr className="hr"/>
+      </div>
     )
   })
   console.log({details})
@@ -23,8 +26,9 @@ const App = ()=>{
       <Nav />
       <div className="hero">
         <div className="card-container">
-          {details}
           
+          {details}
+         
         </div>
       </div>
     </div>

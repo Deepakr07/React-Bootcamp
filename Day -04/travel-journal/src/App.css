@@ -22,3 +22,10 @@ body{
   flex-direction: column;
   gap: 10px;
 }
+
+.hr{
+  margin-top: 20px;
+  height: 2px;
+  border: none;
+  background-color: #F5F5F5;
+}
