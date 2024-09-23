@@ -3,14 +3,30 @@
   justify-content: space-between;
   background: linear-gradient(to right, #672280 0%,#A626D3 100%);
   padding: 20px;
+  color: white;
 }
 
 .nav-left{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  gap: 5px;
 }
 .nav-left img{
-  height: 32px;
-  width: 32px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+
+
+}
+
+.nav-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight:normal;
+  letter-spacing: 1.2px;
 }
