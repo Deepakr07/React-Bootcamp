@@ -3,20 +3,23 @@
   /* background-color: yellow; */
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 40px;
 
 }
 .container{
   /* background-color: green; */
-  max-width: 500px;
-  min-width: 500px;
+  width: 500px;
+  
 }
 
 .row1,.row2{
   display: flex;
   justify-content: space-between;
 }
-
+label{
+  margin-bottom: 5px;
+  font-size: 16px;
+}
 .input-fields{
   display: flex;
   gap: 20px;
@@ -43,9 +46,7 @@
   width: 100%;
   max-height: 250px;
 }
-.row4{
-  width: 100%;
-}
+
 
 .row3{
   display: flex;
@@ -53,5 +54,6 @@
   margin-top: 15px;
   margin-bottom: 20px;
   border-radius: 10px;
+  cursor: pointer;
   background: linear-gradient(to right,#711F8D 0%,#A818DA 100%);
 }
